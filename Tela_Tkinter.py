@@ -43,19 +43,15 @@ input2.grid(row = 3, column = 2, padx= 10)
 result = tk.Label(janela, text="Resultado = ")
 result.grid(row = 4, column = 2, padx= 10)
 
-btn = tk.Button(janela, text='SOMA',command=Soma)
+btn = tk.Button(janela, text='  +  ',command=Soma)
 btn.grid(row=5,column=2, padx= 10)
 
-btn1 = tk.Button(janela, text='SUBTRAÇÃO',command=Sub)
+btn1 = tk.Button(janela, text='  -  ',command=Sub)
 btn1.grid(row=6,column=2, padx= 10)
 
-btn2 = tk.Button(janela, text='MULTIPLICAÇÃO',command=Mult)
-btn2.grid(row=7,column=2, padx= 10)
+btn3 = tk.Button(janela, text='  *  ',command=Mult)
+btn3.grid(row=7,column=2, padx= 10)
 
-btn2 = tk.Button(janela, text='DIVISÃO',command=Div)
-btn2.grid(row=8,column=2, padx= 10)
+btn4 = tk.Button(janela, text='  /  ',command=Div)
+btn4.grid(row=8,column=2, padx= 10)
 
-
-
-
-janela.mainloop()
