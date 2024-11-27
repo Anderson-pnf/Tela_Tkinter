@@ -55,3 +55,4 @@ btn3.grid(row=7,column=2, padx= 10)
 btn4 = tk.Button(janela, text='  /  ',command=Div)
 btn4.grid(row=8,column=2, padx= 10)
 
+janela.mainloop()
